@@ -1,0 +1,31 @@
+/* src/components/header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white; /* White background */
+    color: #333; /* Dark text color for contrast */
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    border-bottom: 2px solid #e0e0e0; /* Light gray border for a clean finish */
+  }
+  
+  .header .logo a {
+    font-size: 1.5rem;
+    color: #007bff; /* Blue color for the logo */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header .nav a {
+    margin-left: 1rem;
+    color: #333; /* Dark text for navigation links */
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .header .nav a:hover {
+    text-decoration: underline;
+    color: #007bff; /* Blue color on hover */
+  }
+  

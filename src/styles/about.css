@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    background: linear-gradient(135deg, #e3f2fd, #e0f7fa, #bbdefb);
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    position: relative;
+    height: 30vh; /* Slimmer height for the video window */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for contrast */
+    color: white;
+    z-index: 1;
+    border-radius: 50px;
+    margin: 10px;
+   
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Content Section */
+  .about-content {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #002962  ,  #b8d4f5);
+    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 2rem 0.5rem;
+    max-width: '100%';
+    margin: 0 auto;
+  }
+  
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+   
+    flex-wrap: wrap;
+  }
+  
+  .about-section.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .about-text {
+    flex: 1;
+    max-width: 500px;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    color: whitesmoke;
+    margin-bottom: 0.5rem;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .about-text h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    background: whitesmoke;
+    border-radius: 1px;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: whitesmoke;
+  }
+  
+  .about-image-container {
+    flex: 1;
+    max-width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .about-image {
+    width: 100%;
+    height: auto;
+  }
+  .about-hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire container */
+    z-index: -1; /* Put the video behind the content */
+  }  
+  .service-video-container {
+    flex: 1;
+    max-width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .service-video {
+    width: 100%;
+    height: auto;
+  }
