@@ -1,7 +1,7 @@
 // src/components/Layout.js
 
 import React from 'react'
-import Header from './header'
+import Header from './Header'
 import './layout.css'
 
 const Layout = ({ children }) => {
