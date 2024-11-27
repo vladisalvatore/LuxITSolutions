@@ -27,7 +27,7 @@ const IndexPage = () => {
       {/* Hero Section */}
       <section className="hero">
       <img
-          src="/icons/1120.gif" // Replace with your actual GIF path
+          src="/src/images/1120.gif" // Replace with your actual GIF path
           alt="Animated Header"
           className="hero-video"
         />
