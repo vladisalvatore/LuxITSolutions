@@ -7,13 +7,14 @@ const AboutPage = () => {
     <Layout>
       {/* Hero Section */}
       <section className="about-hero">
-      <video autoPlay loop muted className="about-hero-video">
-          <source src="/videos/1120.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+      <img
+          src="/icons/1120.gif" // Replace with your actual GIF path
+          alt="Animated Header"
+          className="about-hero-video"
+        />
         <h1 className="about-title">About Lux IT Solutions</h1>
       </section>
-
+<br/><br/>
       {/* Content Section */}
       <section className="about-content">
         <div className="about-section">
@@ -24,10 +25,11 @@ const AboutPage = () => {
             </p>
           </div>
           <div className="service-video-container">
-            <video autoPlay loop muted className="service-video">
-              <source src="/videos/digital.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <img
+          src="/icons/digital.gif" // Replace with your actual GIF path
+          alt="Animated Header"
+          className="service-video"
+        />
           </div>
         </div>
 
@@ -39,13 +41,22 @@ const AboutPage = () => {
             </p>
           </div>
           <div className="service-video-container">
-            <video autoPlay loop muted className="service-video">
-              <source src="/videos/finger.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <img
+          src="/icons/fingerprint.gif" // Replace with your actual GIF path
+          alt="Animated Header"
+          className="service-video"
+        />
           </div>
         </div>
       </section>
+      <footer className="footer">
+        <div className="footer-content">
+          <p>Contact Us</p>
+          <p>Email: contact@lux-it-solutions.com</p>
+          <p>Phone: +1 (470) 800-3101</p>
+          <p>© 2024 Lux IT Solutions. All rights reserved.</p>
+        </div>
+      </footer>
     </Layout>
   );
 };

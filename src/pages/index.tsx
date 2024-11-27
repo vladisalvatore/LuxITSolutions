@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import '../styles/index.css'
 
 const IndexPage = () => {
+
   const { ref: webDevRef, inView: webDevInView } = useInView({
     triggerOnce: true,
     threshold: 0.5,
@@ -25,10 +26,12 @@ const IndexPage = () => {
     <Layout>
       {/* Hero Section */}
       <section className="hero">
-        <video autoPlay loop muted className="hero-video">
-          <source src="/videos/1120.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+      <img
+          src="/icons/1120.gif" // Replace with your actual GIF path
+          alt="Animated Header"
+          className="hero-video"
+        />
+       
         <h1 className="hero-title">Lux IT Solutions</h1>
       </section>
 
@@ -50,10 +53,11 @@ const IndexPage = () => {
         {/* Web Development */}
         <div ref={webDevRef} className={`service-item ${webDevInView ? 'fade-in' : ''}`}>
           <div className="service-video-container">
-            <video autoPlay loop muted className="service-video">
-              <source src="/videos/1121.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <img
+          src="/icons/1121.gif" // Replace with your actual GIF path
+          alt="Animated Header"
+          className="service-video"
+        />
           </div>
           <div className="service-description">
             <h3>Web Development</h3>
@@ -68,10 +72,11 @@ const IndexPage = () => {
         {/* Cloud Services */}
         <div ref={cloudRef} className={`service-item reverse ${cloudInView ? 'fade-in' : ''}`}>
           <div className="service-video-container">
-            <video autoPlay loop muted className="service-video">
-              <source src="/videos/cloud.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <img
+          src="/icons/cloud.gif" // Replace with your actual GIF path
+          alt="Animated Header"
+          className="service-video"
+        />
           </div>
           <div className="service-description">
             <h3>Cloud Services</h3>
@@ -86,10 +91,11 @@ const IndexPage = () => {
         {/* Custom Solutions */}
         <div ref={customRef} className={`service-item ${customInView ? 'fade-in' : ''}`}>
           <div className="service-video-container">
-            <video autoPlay loop muted className="service-video">
-              <source src="/videos/custom.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <img
+          src="/icons/custom.gif" // Replace with your actual GIF path
+          alt="Animated Header"
+          className="service-video"
+        />
           </div>
           <div className="service-description">
             <h3>Custom Solutions</h3>

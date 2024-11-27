@@ -44,10 +44,11 @@ const AboutPage = () => {
     <Layout>
       {/* Hero Section */}
       <section className="about-hero">
-      <video autoPlay loop muted className="about-hero-video">
-          <source src="/videos/1120.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+      <img
+          src="/icons/1120.gif" // Replace with your actual GIF path
+          alt="Animated Header"
+          className="about-hero-video"
+        />
         <h1 className="about-title">Get In Touch</h1>
       </section>
 
