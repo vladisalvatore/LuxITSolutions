@@ -27,7 +27,7 @@ const IndexPage = () => {
       {/* Hero Section */}
       <section className="hero">
       <img
-          src="/images/1120.gif" // Replace with your actual GIF path
+          src="/1120.gif" // Replace with your actual GIF path
           alt="Animated Header"
           className="hero-video"
         />
@@ -54,7 +54,7 @@ const IndexPage = () => {
         <div ref={webDevRef} className={`service-item ${webDevInView ? 'fade-in' : ''}`}>
           <div className="service-video-container">
           <img
-          src="/icons/1121.gif" // Replace with your actual GIF path
+          src="/1121.gif" // Replace with your actual GIF path
           alt="Animated Header"
           className="service-video"
         />
@@ -73,7 +73,7 @@ const IndexPage = () => {
         <div ref={cloudRef} className={`service-item reverse ${cloudInView ? 'fade-in' : ''}`}>
           <div className="service-video-container">
           <img
-          src="/icons/cloud.gif" // Replace with your actual GIF path
+          src="/cloud.gif" // Replace with your actual GIF path
           alt="Animated Header"
           className="service-video"
         />
@@ -92,7 +92,7 @@ const IndexPage = () => {
         <div ref={customRef} className={`service-item ${customInView ? 'fade-in' : ''}`}>
           <div className="service-video-container">
           <img
-          src="/icons/custom.gif" // Replace with your actual GIF path
+          src="/custom.gif" // Replace with your actual GIF path
           alt="Animated Header"
           className="service-video"
         />

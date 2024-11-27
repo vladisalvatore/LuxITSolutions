@@ -8,7 +8,7 @@ const AboutPage = () => {
       {/* Hero Section */}
       <section className="about-hero">
       <img
-          src="/icons/1120.gif" // Replace with your actual GIF path
+          src="/1120.gif" // Replace with your actual GIF path
           alt="Animated Header"
           className="about-hero-video"
         />
@@ -26,7 +26,7 @@ const AboutPage = () => {
           </div>
           <div className="service-video-container">
           <img
-          src="/icons/digital.gif" // Replace with your actual GIF path
+          src="/digital.gif" // Replace with your actual GIF path
           alt="Animated Header"
           className="service-video"
         />
@@ -42,7 +42,7 @@ const AboutPage = () => {
           </div>
           <div className="service-video-container">
           <img
-          src="/icons/fingerprint.gif" // Replace with your actual GIF path
+          src="/fingerprint.gif" // Replace with your actual GIF path
           alt="Animated Header"
           className="service-video"
         />

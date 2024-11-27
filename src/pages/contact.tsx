@@ -45,7 +45,7 @@ const AboutPage = () => {
       {/* Hero Section */}
       <section className="about-hero">
       <img
-          src="/icons/1120.gif" // Replace with your actual GIF path
+          src="/1120.gif" // Replace with your actual GIF path
           alt="Animated Header"
           className="about-hero-video"
         />
